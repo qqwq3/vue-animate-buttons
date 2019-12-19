@@ -1,6 +1,6 @@
 {
   "name": "vue-animate-buttons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple set of Vue buttons",
   "main": "index.js",
   "scripts": {
