@@ -1,19 +1,19 @@
 ### Vue button animation set
 #### Start
-```
+```javascript
   npm install vue-animate-buttons -S
 ```
-#### Introduce
+#### Usage
 ```javascript
 // Global import in main.js
 import VueAnimateButtons from 'vue-animate-buttons';
 Vue.use(VueAnimateButtons);
 
 // Import on demand in Vue file
-import { ButtonCurl, ...... } from 'vue-animate-buttons';
+import { ButtonBounce, ...... } from 'vue-animate-buttons';
 
 components: {
-   'button-curl': ButtonCurl,
+   'button-bounce': ButtonBounce
 },
 
 <button-bounce
@@ -25,5 +25,8 @@ components: {
 >
       This is an animation button
 </button-bounce>
-
 ```
+#### Props
+| Name                           | Type             | Default        | Description                                                                                  |
+| ------------------------------ | ---------------- | -------------- | -------------------------------------------------------------------------------------------- |
+
