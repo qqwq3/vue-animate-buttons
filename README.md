@@ -25,8 +25,14 @@ components: {
 >
       This is an animation button
 </button-bounce>
+
+// CSS Control colors
+.vue:before {
+   background: red !important;
+}
 ```
-#### Props
-| Name                           | Type             | Default        | Description                                                                                  |
-| ------------------------------ | ---------------- | -------------- | -------------------------------------------------------------------------------------------- |
+#### Buttons
+| Name                           | Props             | Default                                                                                     |
+| ------------------------------ | ---------------- | -------------- |
+| ButtonBounce                           | styles, click, text, isSlot, className, type           | ''           
 
