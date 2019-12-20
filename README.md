@@ -1,4 +1,4 @@
-## Vue button animation set
+## [Vue](https://cn.vuejs.org/v2/guide/components.html) button animation set
 ### Start
 ```javascript
   npm install vue-animate-buttons -S
@@ -56,4 +56,4 @@ components: {
 | [ButtonWobble](https://github.com/qqwq3/vue-animate-buttons/blob/master/src/button-wobble.vue)                           | styles, click, text, isSlot, className, direction           | direction (horizontal, vertical)
 
 ### Author
-  [leehormone@yean.net](https://mail.yeah.net/js6/main.jsp?sid=UApjykuqdmzkwmTTZfqqrterYJqUSoXY&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D)
+  leehormone@yean.net
