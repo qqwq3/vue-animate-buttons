@@ -21,7 +21,7 @@ components: {
   :button-type="'submit'"
   :className="'vue'"
   :is-slot="true"
-  :direction="'top-left'"
+  :type="'in'"
 >
       This is an animation button
 </button-bounce>
@@ -32,7 +32,9 @@ components: {
 }
 ```
 #### Buttons
-| Name                           | Props             | Default                                                                                     |
+| Name                           | Props             | Difference                                                                                     |
 | ------------------------------ | ---------------- | -------------- |
-| ButtonBounce                           | styles, click, text, isSlot, className, type           | ''           
-
+| ButtonBounce                           | styles, click, text, isSlot, className, type           | type (in , out)    
+| ButtonBubble                           | styles, click, text, isSlot, className, position           | position (left, right, top, bottom)   
+| ButtonBubbleFloat                           | styles, click, text, isSlot, className, position           | position (left, right, top, bottom)   
+| ButtonBuzz                           | styles, click, text, isSlot, className           | 
