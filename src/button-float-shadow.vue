@@ -1,0 +1,31 @@
+<template>
+    <button type="button" @click="onClick" :style="styles" :class="['buts hvr-float-shadow', customClass]">{{ !isSlot ? text : null }}<slot v-if="isSlot"></slot></button>
+</template>
+
+<script>
+    export default {
+        name: "button-float-shadow",
+        data: function() { return { customClass: this.className }; },
+        props: {
+            // 按钮样式
+            styles: { type: Object, default: () => {} },
+            // 按钮点击事件
+            click: { type: Function, default: () => null },
+            // 按钮文字
+            text: { type: String, default: () => '我是按钮' },
+            // 是否插槽
+            isSlot: { type: Boolean, default: () => false },
+            className: { type: String, default: () => '' }
+        },
+        methods: { onClick: function (w) { this.$emit('click', w); } }
+    }
+</script>
+
+<style scoped>
+    @import "./common.css";
+    /* Float Shadow */
+    .hvr-float-shadow {display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0, 0, 0, 0);position: relative;-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;transition-property: transform;}
+    .hvr-float-shadow:before {pointer-events: none;position: absolute;z-index: -1;content: '';top: 100%;left: 5%;height: 10px;width: 90%;opacity: 0;background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform, opacity;transition-property: transform, opacity;}
+    .hvr-float-shadow:hover {-webkit-transform: translateY(-5px);transform: translateY(-5px);}
+    .hvr-float-shadow:hover:before {opacity: 1;-webkit-transform: translateY(5px);transform: translateY(5px);}
+</style>

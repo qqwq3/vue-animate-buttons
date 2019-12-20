@@ -1,0 +1,12 @@
+button {
+    outline: none;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.buts {
+    background: #e1e1e1;
+    padding: 15px 25px;
+    position: relative;
+}
