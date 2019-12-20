@@ -54,3 +54,6 @@ components: {
 | [ButtonUnderline](https://github.com/qqwq3/vue-animate-buttons/blob/master/src/button-underline.vue)                           | styles, click, text, isSlot, className, direction           | direction (left, center, right)
 | [ButtonUnderlineReveal](https://github.com/qqwq3/vue-animate-buttons/blob/master/src/button-underline-reveal.vue)                           | styles, click, text, isSlot, className           | 
 | [ButtonWobble](https://github.com/qqwq3/vue-animate-buttons/blob/master/src/button-wobble.vue)                           | styles, click, text, isSlot, className, direction           | direction (horizontal, vertical)
+
+### Author
+  [leehormone@yean.net](https://mail.yeah.net/js6/main.jsp?sid=UApjykuqdmzkwmTTZfqqrterYJqUSoXY&df=mail163_letter#module=welcome.WelcomeModule%7C%7B%7D)
