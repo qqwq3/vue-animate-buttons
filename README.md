@@ -1,9 +1,9 @@
-### Vue button animation set
-#### Start
+## Vue button animation set
+### Start
 ```javascript
   npm install vue-animate-buttons -S
 ```
-#### Usage
+### Usage
 ```javascript
 // Global import in main.js
 import VueAnimateButtons from 'vue-animate-buttons';
@@ -31,10 +31,10 @@ components: {
    background: red !important;
 }
 ```
-#### Buttons
+### Buttons
 | Name                           | Props             | Difference                                                                                     |
 | ------------------------------ | ---------------- | -------------- |
-| ButtonBounce                           | styles, click, text, isSlot, className, type           | type (in , out)    
+| [ButtonBounce](https://github.com/qqwq3/vue-animate-buttons/blob/master/src/button-bounce.vue)                           | styles, click, text, isSlot, className, type           | type (in , out)    
 | ButtonBubble                           | styles, click, text, isSlot, className, position           | position (left, right, top, bottom)   
 | ButtonBubbleFloat                           | styles, click, text, isSlot, className, position           | position (left, right, top, bottom)   
 | ButtonBuzz                           | styles, click, text, isSlot, className           | 
